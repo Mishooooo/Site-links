@@ -1,0 +1,133 @@
+
+* {
+  border-radius: 4px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: rgb(54, 69, 56);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0px;
+  }
+
+
+  main {
+
+  
+    padding: 0 5rem;
+  }
+
+.used_langs{
+  margin-top: 3rem;
+}
+  a {
+    color: #181881d2;
+    text-decoration: none;
+  }
+
+  a:hover h2{
+    color: #ff0000c5;
+  }
+
+
+  
+.html_and_css {
+
+  font-size: 7px;
+
+  display: grid;
+
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 6fr));
+
+  grid-gap: 1rem;
+
+  background-color: rgba(162, 206, 191, 0.616);
+   padding: 1rem 4rem; 
+}
+.html_and_css div{
+  background-color: #f8f8f8;
+  /* display: flex; */
+justify-items: center;
+ width: 5rem;
+ height: 5.5rem; 
+text-align: center;
+padding-top: 8px;
+transition: all 0.25s ease-in-out;
+}
+.html_and_css img{
+
+  width: 3rem;
+  height: 2rem;
+  transition: all 0.25s ease-in-out;
+}
+.html_and_css div:hover {
+
+  margin-top: -6.5rem;
+
+  width: 12rem;
+  height: 12rem;
+  font-size: 9.5px;
+  box-shadow: 4px 6px 6px #9a9aa74c;
+}
+.html_and_css div:hover img{
+  width: 7rem;
+  height: 7rem;
+}
+
+
+
+
+  ul {
+    background-color:   rgba(162, 206, 191, 0.616);
+    padding: 2.5rem 6rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 8rem;
+        justify-items: center;
+        justify-content: center;
+  }
+
+  li {
+
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+  li p {
+    font-size: 14px;
+
+    margin-top: 10px;
+    color: #777;
+  }
+  img {
+    width: 10rem;
+    height: 10rem;
+ 
+  }
+ li :hover img{
+    filter: brightness(120%) blur(0.5px);
+
+  box-shadow: 6px 6px 6px #d543091e;
+  }
+
+
+  /* @media screen and (max-width: 590px) {
+    .html_and_css {
+      width: 7rem
+    }
+  } */
